@@ -1,8 +1,13 @@
-import unittest
+import Lab2
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)  # add assertion here
+def test_calc_average():
+    results = 0
+    number_list = [2, 3, 4]
+    test_results = Lab2.calc_average(number_list)
+    results = 3
+    assert (results == test_results)
 
-if __name__ == '__main__':
-    unittest.main()
+
+
+
+
